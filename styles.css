@@ -1,0 +1,35 @@
+body {
+    background-color: saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head{
+    text-align: center;
+    background-color: bisque;
+    border-radius: 0.5em;
+}
+.Cat {
+    background-color: sandybrown;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px hsla(293, 92%, 45%, 0.933);
+    flex: 1;
+}
+@media (min-width : 960px) {
+    .Cats {
+        display: flex;
+    }
+}
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+button {
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.em;
+}
+
+input {
+    padding: 1em;
+}
